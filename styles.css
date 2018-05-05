@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: SourceSansPro_Regular;
+    src: url(fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Regular;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inconsolata_Regular;
+    src: url(fonts/Inconsolata/Inconsolata-Regular.ttf);
+}
+
+body {
+    background-color: #1d1d1d;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+    color: #9c9c9c;
+    font-family: SourceSansPro_Regular;
+}
+
+hr {
+    border-color: #262626;
+    border-top: 1px solid #262626;
+    border-left: 1px solid #262626;
+    height: 0px;
+    color: #262626;
+}
+
+#contact {
+    background-color: #000000;
+    color: #a7a7a7;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-size: 11pt;
+
+    font-family: Inconsolata_Regular;
+}
+
+#contact-holder {
+    padding: 4px;
+    width: 70%;
+    background: linear-gradient(90deg, #0d0d0d, #1d1d1d);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #242323;
+    color: white;
+    padding-left: 20%;
+    padding-top: 20px;
+
+    font-size: 14pt;
+}
+
+a {
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #737272;
+    text-decoration: none;
+}
