@@ -32,6 +32,10 @@ hr {
     color: #262626;
 }
 
+p {
+    padding-left: 10px;
+}
+
 #contact {
     background-color: #000000;
     color: #a7a7a7;
